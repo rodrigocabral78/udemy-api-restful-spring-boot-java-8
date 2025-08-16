@@ -5,16 +5,29 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.5</version>
+		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.udemy-api-restful</groupId>
-	<artifactId>udemy-api-restful-com-spring-boot-e-java-11</artifactId>
+	<groupId>com.github.rodrigocabral78</groupId>
+	<artifactId>apiRestFulSpringBootJava17</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>udemy-api-restful-com-spring-boot-e-java-11</name>
+	<name>apiRestFulSpringBootJava17</name>
 	<description>Demo project for Spring Boot</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
