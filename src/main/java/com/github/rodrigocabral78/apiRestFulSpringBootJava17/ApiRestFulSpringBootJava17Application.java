@@ -11,5 +11,7 @@ public class ApiRestFulSpringBootJava17Application {
     System.out.println("API RESTful com Spring Boot e Java 8 - Guia de Referência...");
     System.out.println("API RESTful com Spring Boot e Java 11 - Guia de Referência...");
     System.out.println("API RESTful com Spring Boot e Java 17 - Guia de Referência...");
+    System.out.println("API RESTful com Spring Boot e Java 21 - Guia de Referência...");
+    System.out.println("API RESTful com Spring Boot e Java 24 - Guia de Referência...");
   }
 }
