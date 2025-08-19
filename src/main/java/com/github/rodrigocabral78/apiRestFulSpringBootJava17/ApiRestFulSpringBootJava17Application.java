@@ -1,5 +1,6 @@
 package com.github.rodrigocabral78.apiRestFulSpringBootJava17;
 
+import com.github.rodrigocabral78.apiRestFulSpringBootJava17.utils.PasswordUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -15,6 +16,14 @@ public class ApiRestFulSpringBootJava17Application {
   public CommandLineRunner commandLineRunner() {
     return args -> {
       System.out.println("### Quantidade de elementos por página = " + this.perPage);
+
+      String passwdEncoded = PasswordUtils.encoderPasswd("123456");
+      System.out.println("Senha encodada: " + passwdEncoded);
+
+      passwdEncoded = PasswordUtils.encoderPasswd("123456");
+      System.out.println("Senha encodada novamente: " + passwdEncoded);
+
+      System.out.println("Senha válida: " + PasswordUtils.validationPassword("123456", passwdEncoded));
     };
   }
 

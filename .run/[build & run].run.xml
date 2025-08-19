@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[build &amp; run]" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="envFilePaths">
+      <option value="$PROJECT_DIR$/.env" />
+    </option>
+    <option name="MAIN_CLASS_NAME" value="com.github.rodrigocabral78.apiRestFulSpringBootJava17.ApiRestFulSpringBootJava17Application" />
+    <module name="apiRestFulSpringBootJava17" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.github.rodrigocabral78.apiRestFulSpringBootJava17.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
